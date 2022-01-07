@@ -398,7 +398,7 @@ ul li:last-child {
 .main-about {
   display: flex;
   align-items: center;
-  margin: 19rem 0 14rem 0;
+  margin: 19rem auto 14rem;
   justify-content: space-between;
 }
 
@@ -1079,6 +1079,10 @@ ul li:last-child {
 }
 
 @media (max-width: 768px) {
+  .footer-area {
+    padding: 1rem 0;
+  }
+
   .main-footer {
     padding: 0 1rem;
   }
